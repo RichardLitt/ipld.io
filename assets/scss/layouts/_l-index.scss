@@ -1,0 +1,48 @@
+// --------------------------------------------------
+// Layout index page
+// --------------------------------------------------
+
+main {
+  @include grid-row;
+
+  .masthead {
+    margin: 108px 0 54px;
+    text-align: center;
+    @include grid-column(8);
+    @include grid-column-offset(2);
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 54px;
+
+      em {
+        font-weight: 500;
+        font-style: normal;
+      }
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 20px;
+      margin: 54px 0 108px;
+    }
+
+    a.button {
+      border-radius: 22px;
+      height: 43px;
+      padding: 10px 25px;
+      margin-top: 12px;
+      margin-right: 20px;
+      background-color: #d80265;
+      font-weight: 500;
+      font-size: 20px
+    }
+
+    a.secondary-link {
+      color: $white;
+      font-size: 20px;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<nav class="top-bar" data-topbar>
+  <div class="title-bar" data-responsive-toggle="menu">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+  <div id="menu" class="top-bar">
+    <div class="top-bar-center">
+      <ul class="menu">
+        <li class="menu-text">IPLD</li>
+        {% for item in site.data.nav-main %}
+        <li>
+          <a href="{{ item.url }}">{{ item.link }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

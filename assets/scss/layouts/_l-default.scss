@@ -1,0 +1,20 @@
+// --------------------------------------------------
+// Layout default
+// --------------------------------------------------
+
+header {
+  @include grid-row;
+
+  .top-bar {
+    @include grid-column(10);
+    @include grid-column-offset(1);
+    @include top-bar-container;
+  }
+}
+
+footer {
+  @include grid-row;
+  @include grid-column;
+  text-align: center;
+  margin: 18px 0;
+}
