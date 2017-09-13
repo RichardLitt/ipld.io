@@ -1,5 +1,7 @@
 # ipld.io
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/ipld.io.svg)](https://greenkeeper.io/)
+
 > The site for IPLD
 
 ## Development
